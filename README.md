@@ -18,17 +18,17 @@ Restaurant website to offer your products and manage it.
 
 ## Instaltion
 
-```
+```bash
 composer install
 copy .env.example to .env
-#cp .env.example to .env
+# cp .env.example to .env
 php artisan key:generate
 php artisan storage:link
 
-#after connect your database via .env file
+# after connect your database via .env file
 php artisan migrate:fresh
 
-#run the server
+# run the server
 php artisan serve
 ```
 
